@@ -1,0 +1,339 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-color: black;
+    color: white;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 55rem;
+    height: 45rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table tr td{
+    border: 1px solid black;
+}
+
+.content table{
+    width: 100%;
+    height: 100%;
+}
+
+.table-border{
+    border: none !important;
+    border-collapse: collapse;
+}
+
+.table-border tr td{
+    border: none;
+}
+
+.rounded{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px black;
+    transition: .5s;
+}
+
+.border-top{
+    border-top: 1px solid black !important;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black !important;
+}
+
+.border-left{
+    border-left: 1px solid black !important;
+}
+
+.border-right{
+    border-right: 1px solid black !important;
+}
+
+.padding{
+    padding: 5px 30px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-blue{
+    background-color: #149DC9;
+}
+
+.bg-red{
+    background-color: #D43B1F;
+}
+
+.bg-yellow{
+    background-color: #C7C415;
+}
+
+.bg-green{
+    background-color: #15C720;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.bg-degrade-blue{
+    background-color: #149cc998;
+}
+
+.bg-degrade-red{
+    background-color: #d43a1f98;
+}
+
+.bg-degrade-yellow{
+    background-color: #c7c4159d;
+}
+
+.bg-degrade-green{
+    background-color: #15c7219a;
+}
+
+.central{
+    position: absolute;
+    
+    border-top: 15rem solid #C7C415 !important;
+    border-bottom: 15rem solid #D43B1F !important;
+    border-left: 15rem solid #149DC9 !important;
+    border-right: 15rem solid #15C720 !important;
+    border-radius: 15rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-central{
+    position: absolute;
+    top: 18.7rem;
+    width: 11.5rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.records{
+    width: 7.5rem;
+    height: 6rem;
+    background-color: white;
+}
+
+.boxes{
+    overflow: hidden;
+}
+
+.boxes .container-boxes{
+    width: 100%;
+    height: 100%;
+}
+
+.g-n-43{
+    transform: rotate(-43grad);
+    margin-top: -40%;
+    margin-left: -38%;
+}
+
+.g-n-43-mirror{
+    transform: rotate(-43grad);
+    margin-top: -80%;
+    margin-left: -6%;
+}
+
+.g-43{
+    transform: rotate(43grad);
+    margin-left: 40%;
+    margin-top: -40%;
+}
+
+.g-43-mirror{
+    transform: rotate(43grad);
+    margin-left: 2%;
+    margin-top: -85%;
+}
+
+.boxes .container-boxes div{
+    width: 150%;
+    height: 100%;
+}
+
+.boxes .container-boxes:first-child{
+    border-bottom: 1px solid black;
+}
+
+.mouse-move-normal table tr td:hover{
+    background-color: rgba(238, 230, 230, 0.671);
+}
+
+.mouse-move-yellow:hover{
+    background-color: #c7c4159d !important;
+}
+
+.mouse-move-col-yellow table tr td:hover{
+    background-color: #c7c4159d !important;
+}
+
+.mouse-move-gray:hover{
+    background-color: rgb(155, 151, 151) !important;
+}
+
+.mouse-move-col-blue table tr td:hover{
+    background-color: #149cc998 !important;
+}
+
+.mouse-move-blue:hover{
+    background-color: #149cc998 !important;
+}
+
+.mouse-move-green:hover{
+    background-color: #15c7219a !important;
+}
+
+.mouse-move-col-green table tr td:hover{
+    background-color: #15c7219a !important;
+}
+
+.mouse-move-red:hover{
+    background-color: #d43a1f98 !important;
+}
+
+.mouse-move-col-red table tr td:hover{
+    background-color: #d43a1f98 !important;
+}
+
+.rounded:hover{
+    transform: scale(1.01);
+}
+
+.boxes .container-boxes div:hover{
+    background-color: rgba(238, 230, 230, 0.671) !important;
+}
+
+.record-yellow-1, .record-yellow-2, .record-yellow-3, .record-yellow-4, 
+.record-blue-1, .record-blue-2, .record-blue-3, .record-blue-4, 
+.record-green-1, .record-green-2, .record-green-3, .record-green-4, 
+.record-red-1, .record-red-2, .record-red-3, .record-red-4{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 100%;
+    border: 2px solid white;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.record-yellow-1, .record-yellow-2, .record-yellow-3, .record-yellow-4{
+    background-color: #C7C415;
+}
+
+.record-blue-1, .record-blue-2, .record-blue-3, .record-blue-4{
+    background-color: #149DC9;
+}
+
+.record-green-1, .record-green-2, .record-green-3, .record-green-4{
+    background-color: #15C720;
+}
+
+.record-red-1, .record-red-2, .record-red-3, .record-red-4{
+    background-color: #D43B1F;
+}
+
+.board{
+    width: 15%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    top: 2%;
+    left: 84%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.board .board-header{
+    width: 100%;
+    height: 10%;
+}
+
+.board .board-body{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(221, 215, 215);
+    overflow: scroll;
+    font-size: 13px;
+}
+.board .board-body div{
+    width: 100%;
+    height: 5%;
+}
+
+.board .board-footer{
+    width: 100%;
+    height: 10%;
+}
+
+.board .board-footer button{
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    transition: .2s;
+
+}
+
+.board .board-header .dice{
+    width: 5rem;
+    height: 90%;
+    border: 1px solid black;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.dice .dice-title{
+    font-size: 12px !important;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+td{
+    color: black;
+}
+
+.dice .dice-text{
+    font-size: 25px;
+    font-weight: bold;
+}

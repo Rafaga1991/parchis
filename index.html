@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juego de parchis. @R.M.B.">
+    <meta name="theme-color" content="#B84810">
+    <link rel="shortcut icon" href="./assets/image/parchis.png" type="image/x-icon">
+    <title>Parchis</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <table>
+            <tr>
+                <td class="padding bg-degrade-yellow">
+                    <div class="rounded bg-yellow"></div>
+                </td>
+
+                <td class="content">
+                    <table class="table-border">
+                        <tr>
+                            <td class="content mouse-move-normal">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom mouse-move-yellow bg-yellow"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="mouse-move-normal"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="border-left border-right mouse-move-col-yellow">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="border-bottom bg-yellow"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom bg-yellow"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom bg-yellow"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom bg-yellow"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom bg-yellow"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom bg-yellow"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-yellow"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="content mouse-move-normal">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom mouse-move-gray bg-gray"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom"></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td class="padding bg-degrade-green">
+                    <div class="rounded bg-green center"></div>
+                </td>
+            </tr>
+
+            <!-- Fila Central -->
+            <tr>
+                <td class="content mouse-move-normal">
+                    <table class="table-border">
+                        <tr>
+                            <td class="content">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="border-right"></td>
+                                        <td class="border-right"></td>
+                                        <td class="border-right"></td>
+                                        <td class="border-right"></td>
+                                        <td class="border-right mouse-move-gray bg-gray"></td>
+                                        <td class="border-right"></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-top border-bottom content mouse-move-col-blue">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="border-right bg-blue"></td>
+                                        <td class="border-right bg-blue"></td>
+                                        <td class="border-right bg-blue"></td>
+                                        <td class="border-right bg-blue"></td>
+                                        <td class="border-right bg-blue"></td>
+                                        <td class="border-right bg-blue"></td>
+                                        <td class="bg-blue"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="content">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="border-right"></td>
+                                        <td class="border-right"></td>
+                                        <td class="border-right"></td>
+                                        <td class="border-right"></td>
+                                        <td class="border-right bg-blue mouse-move-blue"></td>
+                                        <td class="border-right"></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <!-- Centro del parchis -->
+                <td class="content" style="height: 15rem;color: red;">
+                    <table class="table-border">
+                        <tr>
+                            <td class="border-right boxes">
+                                <div class="container-boxes g-43-mirror">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </td>
+                            <td class="border-right mouse-move-yellow bg-yellow"></td>
+                            <td class="boxes">
+                                <div class="container-boxes g-n-43-mirror">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td class="border-right mouse-move-blue bg-blue"></td>
+                            <td class="border-right"></td>
+                            <td class="mouse-move-green bg-green"></td>
+                        </tr>
+                        <tr class="border-top">
+                            <td class="border-right boxes">
+                                <div class="container-boxes g-n-43">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </td>
+                            <td class="border-right mouse-move-red bg-red"></td>
+                            <td class="boxes">
+                                <div class="container-boxes g-43">
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Centro de juego -->
+                    <div class="center">
+                        <div class="container-central center">
+                            <div class="central">
+                                <div class="records center"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin -->
+                </td>
+                <!-- Fin del centro del parchis -->
+                <td class="content">
+                    <table class="table-border">
+                        <tr>
+                            <td class="content mouse-move-normal">
+                                <table class="table-border">
+                                    <tr>
+                                        <td></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left mouse-move-green bg-green"></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="border-top border-bottom content mouse-move-col-green">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="bg-green"></td>
+                                        <td class="border-left bg-green"></td>
+                                        <td class="border-left bg-green"></td>
+                                        <td class="border-left bg-green"></td>
+                                        <td class="border-left bg-green"></td>
+                                        <td class="border-left bg-green"></td>
+                                        <td class="border-left bg-green"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="content mouse-move-normal">
+                                <table class="table-border">
+                                    <tr>
+                                        <td></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left mouse-move-gray bg-gray"></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left"></td>
+                                        <td class="border-left"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Fin de Fila Central -->
+
+            <tr>
+                <td class="padding bg-degrade-blue">
+                    <div class="rounded bg-blue"></div>
+                </td>
+
+                <td class="content mouse-move-normal">
+                    <table class="table-border">
+                        <tr>
+                            <td>
+                                <table class="table-border">
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top mouse-move-gray bg-gray"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="border-left border-right mouse-move-col-red">
+                                <table class="table-border">
+                                    <tr>
+                                        <td class="bg-red"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top bg-red"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top bg-red"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top bg-red"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top bg-red"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top bg-red"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top bg-red"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table class="table-border">
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top mouse-move-red bg-red"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td class="padding bg-degrade-red">
+                    <div class="rounded bg-red"></div>
+                </td>
+            </tr>
+        </table>
+        <div class="record">
+            <!-- fichas amarillas -->
+            <div class="record-yellow-1" onmousedown="onMouseDown(event, this)" id="y1"></div>
+            <div class="record-yellow-2" onmousedown="onMouseDown(event, this)" id="y2"></div>
+            <div class="record-yellow-3" onmousedown="onMouseDown(event, this)" id="y3"></div>
+            <div class="record-yellow-4" onmousedown="onMouseDown(event, this)" id="y4"></div>
+            <!-- Fichas rojas -->
+            <div class="record-red-1" onmousedown="onMouseDown(event, this)" id="r1"></div>
+            <div class="record-red-2" onmousedown="onMouseDown(event, this)" id="r2"></div>
+            <div class="record-red-3" onmousedown="onMouseDown(event, this)" id="r3"></div>
+            <div class="record-red-4" onmousedown="onMouseDown(event, this)" id="r4"></div>
+            <!-- Fichas azules -->
+            <div class="record-blue-1" onmousedown="onMouseDown(event, this)" id="b1"></div>
+            <div class="record-blue-2" onmousedown="onMouseDown(event, this)" id="b2"></div>
+            <div class="record-blue-3" onmousedown="onMouseDown(event, this)" id="b3"></div>
+            <div class="record-blue-4" onmousedown="onMouseDown(event, this)" id="b4"></div>
+            <!-- Fichas verdes -->
+            <div class="record-green-1" onmousedown="onMouseDown(event, this)" id="g1"></div>
+            <div class="record-green-2" onmousedown="onMouseDown(event, this)" id="g2"></div>
+            <div class="record-green-3" onmousedown="onMouseDown(event, this)" id="g3"></div>
+            <div class="record-green-4" onmousedown="onMouseDown(event, this)" id="g4"></div>
+        </div>
+        <div class="board">
+            <div class="board-header center">
+                <div class="dice">
+                    <div class="dice-title center">Dado 1</div>
+                    <div class="dice-text center" id="dice-one"></div>
+                </div>
+                <div class="dice">
+                    <div class="dice-title center">Dado 2</div>
+                    <div class="dice-text center" id="dice-two">
+                    </div>
+                </div>
+            </div>
+
+            <div class="board-body"></div>
+
+            <div class="board-footer">
+                <button onclick="trhowDice()" class="bg-green mouse-move-green" id="btn-trhow-dice">Arrojar Dados</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
